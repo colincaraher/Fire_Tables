@@ -226,7 +226,7 @@ class App(object):
 
             # Function saves rule to IPTables
 def Save_Rules(event):
-    print(table_of_rules)
+    #print(table_of_rules)
     rule_to_save = {}
     #table_of_rules.reverse()
     for key in table_of_rules: 
